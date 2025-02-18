@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Character Counter</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container container">
+        <a class="site-logo" href="#">
+          <img id="site-logo-image" src="images/Logo (2).svg" alt="site-logo" />
+        </a>
+
+        <button id="theme__toggler" class="header__theme__toggler">
+          <img
+            id="theme/theme__toggler__image"
+            src="images/moon.png"
+            alt="moon"
+          />
+        </button>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="title-textarea">
+        <h1 class="title-textarea__title">Analyze your text in real-time.</h1>
+
+        <div class="textarea-wrapper container">
+          <textarea
+            placeholder="Start typing here… (or paste your text)"
+            id="textarea"
+          ></textarea>
+        </div>
+        
+          <div class="options">
+            <div class="options__container container">
+              <label class="options__label">
+                <input
+                  id="set-character-limit"
+                  class="options__checkbox"
+                  type="checkbox"
+                />
+                <span>Exclude Spaces</span>
+              </label>
+              <label class="options__label">
+                <input class="options__checkbox" type="checkbox" />
+                <span>Set Character Limit</span>
+                <input
+                id="options__checkbox__limit"
+                class="options__checkbox__limit hidden-visibility"
+                type="number"
+                />
+                <p>Approx. reading time: < 1 minute</p>
+            </label>
+            </div>
+          </div>
+      </section>
+    </main>
+    <footer>
+        <div class="lower-part container">
+          <div class="box">
+            <div class="tex">
+              <h2>278</h2>
+              <p>Total Characters</p>
+            </div>
+            <img src="images/pink.png" alt="" />
+          </div>
+          <div class="box1">
+            <div class="tex">
+              <h2>39</h2>
+              <p>Word Count</p>
+            </div>
+            <img src="images/yellow.png" alt="" />
+          </div>
+          <div class="box2">
+            <div class="tex">
+              <h2>04</h2>
+              <p>Sentence Count</p>
+            </div>
+            <img src="images/orange.png" alt="" />
+          </div>
+        </div>
+      </footer>
+
+      <section class="statistika">
+        <div class="statistika__container container">
+          <h3 class="statistika__title container">Letter Density</h3>
+
+          <div class="statistika__wrap container">
+            <div class="statistika__right">
+              <h2 class="statistika__right__title">E</h2>
+              <div class="statistika__progress">
+                <div
+                  class="statistika__progress-fill"
+                  style="width: 139px"
+                ></div>
+              </div>
+            </div>
+            <div class="statistika__left">
+              <p class="pratsent">40 (16.06%)</p>
+            </div>
+          </div>
+          <div class="statistika__wrap container">
+            <div class="statistika__right">
+              <h2 class="statistika__right__title">I</h2>
+              <div class="statistika__progress">
+                <div
+                  class="statistika__progress-fill"
+                  style="width: 100px"
+                ></div>
+              </div>
+            </div>
+            <div class="statistika__left">
+              <p class="pratsent">29 (11.65%)</p>
+            </div>
+          </div>
+          <div class="statistika__wrap container">
+            <div class="statistika__right">
+              <h2 class="statistika__right__title">T</h2>
+              <div class="statistika__progress">
+                <div
+                  class="statistika__progress-fill"
+                  style="width: 96px"
+                ></div>
+              </div>
+            </div>
+            <div class="statistika__left">
+              <p class="pratsent">28 (11.24%)</p>
+            </div>
+          </div>
+          <div class="statistika__wrap container">
+            <div class="statistika__right">
+              <h2 class="statistika__right__title">O</h2>
+              <div class="statistika__progress">
+                <div
+                  class="statistika__progress-fill"
+                  style="width: 75px"
+                ></div>
+              </div>
+            </div>
+            <div class="statistika__left">
+              <p class="pratsent">22 (8.84%)</p>
+            </div>
+          </div>
+          <div class="statistika__wrap container">
+            <div class="statistika__right">
+              <h2 class="statistika__right__title">N</h2>
+              <div class="statistika__progress">
+                <div
+                  class="statistika__progress-fill"
+                  style="width: 72px"
+                ></div>
+              </div>
+            </div>
+            <div class="statistika__left">
+              <p class="pratsent">21 (8.43%)</p>
+            </div>
+          </div>
+          <div class="statistika__bottom container">
+            <p class="statistika__description">See more</p>
+            <img
+              class="title"
+              src="./img/Title.svg"
+              alt=""
+              width="10"
+              height="21"
+            />
+          </div>
+        </div>
+      </section>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>

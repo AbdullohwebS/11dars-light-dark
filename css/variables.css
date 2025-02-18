@@ -1,0 +1,57 @@
+:root {
+  /* Neutral Colors */
+  --neutral-900: #12131A;
+  --neutral-800: #21222C;
+  --neutral-700: #2A2B37;
+  --neutral-600: #404254;
+  --neutral-500: #E4E4EF;
+  --neutral-400: #F2F2F7;
+  --neutral-0: #FFFFFF;
+
+  /* Purple (Blue) Colors */
+  --blue-400: #D3A0FA;
+  --blue-500: #C27CF8;
+
+  /* Yellow Colors */
+  --yellow-500: #FF9F00;
+
+  /* Orange Colors */
+  --orange-500: #FE8159;
+  --orange-800: #FE8159;
+
+  /* Typography */
+  --font-family: "DM Sans", sans-serif;
+
+  /* Text Preset 1 */
+  --text-1-size: 64px;
+  --text-1-line-height: 100%;
+  --text-1-letter-spacing: -1px;
+  --text-1-weight: bold;
+
+  /* Text Preset 1 (Mobile) */
+  --text-1-mobile-size: 40px;
+  --text-1-mobile-line-height: 100%;
+  --text-1-mobile-letter-spacing: -1px;
+
+  /* Text Preset 2 */
+  --text-2-size: 24px;
+  --text-2-line-height: 130%;
+  --text-2-letter-spacing: -1px;
+  --text-2-weight: 600; /* SemiBold */
+
+  /* Text Preset 3 */
+  --text-3-size: 20px;
+  --text-3-line-height: 130%;
+  --text-3-letter-spacing: -0.6px;
+  --text-3-weight: normal;
+
+  /* Text Preset 4 */
+  --text-4-size: 16px;
+  --text-4-line-height: 130%;
+  --text-4-letter-spacing: -0.6px;
+  --text-4-weight: normal;
+
+  --bg-light: url('../images/BG-light.png');
+  --bg-dark: url('../images/BG-dark.png');
+  --bg-color: #18191F;
+}
