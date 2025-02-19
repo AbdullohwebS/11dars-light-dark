@@ -136,6 +136,7 @@ body.dark-mode .header__theme__toggler {
   appearance: none;
 }
 .options__checkbox::after {
+ justify-content: center;
   content: "";
   display: inline-block;
   font-family: "Font Awesome 5 Free";
